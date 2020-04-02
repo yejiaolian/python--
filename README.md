@@ -5,5 +5,6 @@
 
 （2）在使用admin后台管理，添加或者修改数据库时，出现错误，no such table: main.auth_user__old。
 解决方法：更新django至2.2版本以上，django升到2.7版本,把原来的数据库删除,再重新运行,重新生成数据库。
+
 （3）在命令里显示没有pip
 解决方法：   python setup.py install
